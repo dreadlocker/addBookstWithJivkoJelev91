@@ -1,5 +1,5 @@
 # How to start:
-  ## Open to server folder
+  ## Open server folder
   * npm i
   * npm start
   ## Open clien folder
