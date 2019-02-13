@@ -1,0 +1,66 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: #bababa;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+#inputs {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  background-color: #17181C;
+  border-color: #575757;
+  color: #e8e7e3;
+}
+
+.mandatory {
+  color: red;
+}
+
+.popUpCSS {
+  display: none;
+  border-color: #575757;
+  color: red;
+  background-color: #17181c;
+}
+
+#buttons {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+
+button {
+  border-color: #575757;
+  color: #e8e7e3;
+  background-color: #17181c;
+}
+
+#booksContainer {
+  margin: 1em 9.5% 0 9.5%;
+}
+
+.clicked {
+  background-color: rebeccapurple;
+  --darkreader-inline-bgcolor: #53297c;
+}

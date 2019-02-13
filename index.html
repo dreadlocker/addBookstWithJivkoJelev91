@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>!!!!!!!!!!!!!!!</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="app.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <form method="POST" action="/upload">
+      <div id="inputs">
+        <label for="title">Title <span class="mandatory">*</span><span class="popUpCSS"> Mandatory field</span></label>
+        <input type="text" id="title" name="title" placeholder="e.g. Letting Go" autofocus value="asdd">
+        <label for="author">Author <span class="mandatory">*</span><span class="popUpCSS"> Mandatory field</span></label>
+        <input type="text" id="author" name="author" placeholder="e.g. Philip Roth" value="asdd">
+        <label for="ISBN">ISBN <span class="mandatory">*</span><span class="popUpCSS"> Mandatory field</span></label>
+        <input type="text" id="ISBN" name="ISBN" placeholder="e.g. 1122334455 or 1122334455667" value="1122112411">
+        <label for="category">Category</label>
+        <input type="text" id="category" name="category" placeholder="e.g. comedy" value="com">
+      </div>
+      <div id="buttons">
+        <button id="add" type="submit">Add Book</button>
+        <button id="showAllBooks">Show All Books</button>
+        <button id="sortByCategories">Sort by Categories</button>
+        <button id="sortByAuthor">Sort by Author</button>
+        <button id="showAllCategories">Show All Categories</button>
+        <button id="delete">Delete</button>
+        <button id="deleteAll">Delete All</button>
+      </div>
+    </form>
+  </div>
+  <div id="booksContainer"></div>
+</body>
+
+</html>
